@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./dateRangeCSS.css">
+</head>
+
+<body>
+    <!-- custom js web component -->
+    <date-picker-range title="Accolite Test including javascript web component, html and css only">
+    </date-picker-range>
+    <div class="description-container">
+        <fieldset class="test-description">
+            <legend>
+                Description of test cases handled
+            </legend>
+            <ol>
+				<li>
+                    created web component
+                </li>
+                <li>
+                    Empty test case for both date picker
+                </li>
+                <li>
+                    Both date should not be same
+                </li>
+                <li>
+                    Left date should be less than right date. In summary, it should be correct date range
+                </li>
+                <li>
+                    Uniqueness test(if the date range is already selected then it will show the alert)
+                </li>
+            </ol>
+        </fieldset>
+    </div>
+    <script type="text/javascript" src="./date-picker-component.js"></script>
+</body>
+
+</html>
